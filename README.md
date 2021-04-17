@@ -8,7 +8,7 @@
 | name               | string              | null: false               |
 | read_name          | string              | null: false               |
 | email              | string              | null: false, unique: true |
-| confirm_password   | string              | null: false               |
+| encrypted_password | string              | null: false               |
 | birth_year         | integer             | null: false               |
 | birth_month        | integer             | null: false               |
 | birth_day          | integer             | null: false               |
